@@ -1,0 +1,225 @@
+# i did a experiment where i scraped a titulars by a news paper and i conected this from the scraped 
+# news paper to a twitter API , and each hour the API print a titular of the new paper, using crontab
+# and the logs has been sended to a this file.
+# the next step was try that my logs "looks good"
+# we can see that the from line 55 the logs looks better.
+# i did it importing logging.
+2020-04-16 11:56:47,184 - Iniciando el proceso...
+2020-04-16 11:56:47,184 - Leyendo URLhttps://elpais.es
+Traceback (most recent call last):
+  File "/home/mati/Documentos/python-for-everybody/access-web-data/publish_titular.py", line 26, in <module>
+    result=api.update_status(titular)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/api.py", line 193, in update_status
+    )(post_data=post_data, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 187, 'message': 'Status is a duplicate.'}]
+2020-04-16 11:57:01,324 - Iniciando el proceso...
+2020-04-16 11:57:01,324 - Leyendo URLhttps://elpais.es
+Traceback (most recent call last):
+  File "/home/mati/Documentos/python-for-everybody/access-web-data/publish_titular.py", line 26, in <module>
+    result=api.update_status(titular)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/api.py", line 193, in update_status
+    )(post_data=post_data, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 187, 'message': 'Status is a duplicate.'}]
+2020-04-16 11:58:01,730 - Iniciando el proceso...
+2020-04-16 11:58:01,730 - Leyendo URLhttps://elpais.es
+Traceback (most recent call last):
+  File "/home/mati/Documentos/python-for-everybody/access-web-data/publish_titular.py", line 26, in <module>
+    result=api.update_status(titular)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/api.py", line 193, in update_status
+    )(post_data=post_data, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 187, 'message': 'Status is a duplicate.'}]
+2020-04-16 12:00:01,673 - Iniciando el proceso...
+2020-04-16 12:00:01,673 - Leyendo URLhttps://elpais.es
+Traceback (most recent call last):
+  File "/home/mati/Documentos/python-for-everybody/access-web-data/publish_titular.py", line 26, in <module>
+    result=api.update_status(titular)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/api.py", line 193, in update_status
+    )(post_data=post_data, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 187, 'message': 'Status is a duplicate.'}]
+2020-04-16 13:00:02,153 - Iniciando el proceso...
+2020-04-16 13:00:02,153 - Leyendo URLhttps://elpais.es
+2020-04-16 13:00:14,671 - Proceso finalizado.
+2020-04-16 14:00:01,730 - Iniciando el proceso...
+2020-04-16 14:00:01,730 - Leyendo URLhttps://elpais.es
+2020-04-16 14:00:12,627 - Proceso finalizado.
+2020-04-16 16:12:00,812 - Iniciando el proceso...
+2020-04-16 16:12:00,812 - Leyendo URLhttps://elpais.es
+2020-04-16 16:12:11,334 - Proceso finalizado.
+2020-04-16 16:13:01,441 - Iniciando el proceso...
+2020-04-16 16:13:01,441 - Leyendo URLhttps://elpais.es
+Traceback (most recent call last):
+  File "/home/mati/Documentos/python-for-everybody/access-web-data/publish_titular.py", line 26, in <module>
+    result=api.update_status(titular)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/api.py", line 193, in update_status
+    )(post_data=post_data, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 187, 'message': 'Status is a duplicate.'}]
+2020-04-16 17:00:01,426 - Iniciando el proceso...
+2020-04-16 17:00:01,426 - Leyendo URLhttps://elpais.es
+Traceback (most recent call last):
+  File "/home/mati/Documentos/python-for-everybody/access-web-data/publish_titular.py", line 26, in <module>
+    result=api.update_status(titular)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/api.py", line 193, in update_status
+    )(post_data=post_data, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 187, 'message': 'Status is a duplicate.'}]
+2020-04-16 18:00:01,590 - Iniciando el proceso...
+2020-04-16 18:00:01,590 - Leyendo URLhttps://elpais.es
+2020-04-16 18:00:12,456 - Proceso finalizado.
+2020-04-16 19:00:01,618 - Iniciando el proceso...
+2020-04-16 19:00:01,618 - Leyendo URLhttps://elpais.es
+Traceback (most recent call last):
+  File "/home/mati/Documentos/python-for-everybody/access-web-data/publish_titular.py", line 26, in <module>
+    result=api.update_status(titular)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/api.py", line 193, in update_status
+    )(post_data=post_data, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/usr/local/lib/python3.6/dist-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 187, 'message': 'Status is a duplicate.'}]
+2020-04-16 20:00:01,905 - Iniciando el proceso...
+2020-04-16 20:00:01,905 - Leyendo URLhttps://elpais.es
+2020-04-16 20:00:13,100 - Finalizando el proceso...
+2020-04-16 21:00:01,261 - Iniciando el proceso...
+2020-04-16 21:00:01,261 - Leyendo URL https://elpais.es
+2020-04-16 21:00:12,185 - Titular duplicado, no se pudo publicar
+2020-04-16 21:00:12,186 - proceso Finalizado.
+2020-04-16 22:00:01,350 - Iniciando el proceso...
+2020-04-16 22:00:01,350 - Leyendo URL https://elpais.es
+2020-04-16 22:00:12,273 - Titular duplicado, no se pudo publicar
+2020-04-16 22:00:12,274 - proceso Finalizado.
+2020-04-16 23:00:01,432 - Iniciando el proceso...
+2020-04-16 23:00:01,432 - Leyendo URL https://elpais.es
+2020-04-16 23:00:12,462 - Titular duplicado, no se pudo publicar
+2020-04-16 23:00:12,463 - proceso Finalizado.
+2020-04-17 00:00:01,620 - Iniciando el proceso...
+2020-04-17 00:00:01,620 - Leyendo URL https://elpais.es
+2020-04-17 00:00:12,647 - Titular duplicado, no se pudo publicar
+2020-04-17 00:00:12,648 - proceso Finalizado.
+2020-04-17 12:00:01,707 - Iniciando el proceso...
+2020-04-17 12:00:01,707 - Leyendo URL https://elpais.es
+2020-04-17 12:00:13,523 - proceso Finalizado.
+2020-04-17 13:00:02,484 - Iniciando el proceso...
+2020-04-17 13:00:02,484 - Leyendo URL https://elpais.es
+2020-04-17 13:00:15,485 - proceso Finalizado.
+2020-04-17 14:00:01,666 - Iniciando el proceso...
+2020-04-17 14:00:01,666 - Leyendo URL https://elpais.es
+2020-04-17 14:00:12,376 - Titular duplicado, no se pudo publicar
+2020-04-17 14:00:12,377 - proceso Finalizado.
+2020-04-17 15:00:01,731 - Iniciando el proceso...
+2020-04-17 15:00:01,731 - Leyendo URL https://elpais.es
+2020-04-17 15:00:12,284 - proceso Finalizado.
+2020-04-17 16:00:01,538 - Iniciando el proceso...
+2020-04-17 16:00:01,538 - Leyendo URL https://elpais.es
+2020-04-17 16:00:13,434 - proceso Finalizado.
+2020-04-17 17:00:02,357 - Iniciando el proceso...
+2020-04-17 17:00:02,357 - Leyendo URL https://elpais.es
+2020-04-17 17:00:13,213 - Titular duplicado, no se pudo publicar
+2020-04-17 17:00:13,215 - proceso Finalizado.
+2020-04-17 18:00:01,413 - Iniciando el proceso...
+2020-04-17 18:00:01,414 - Leyendo URL https://elpais.es
+2020-04-17 18:00:13,082 - Titular duplicado, no se pudo publicar
+2020-04-17 18:00:13,083 - proceso Finalizado.
+2020-04-17 19:00:04,036 - Iniciando el proceso...
+2020-04-17 19:00:04,045 - Leyendo URL https://elpais.es
+2020-04-17 19:00:17,305 - Titular duplicado, no se pudo publicar
+2020-04-17 19:00:17,307 - proceso Finalizado.
+2020-04-17 20:00:01,739 - Iniciando el proceso...
+2020-04-17 20:00:01,739 - Leyendo URL https://elpais.es
+2020-04-17 20:00:13,868 - Titular duplicado, no se pudo publicar
+2020-04-17 20:00:13,870 - proceso Finalizado.
+2020-04-17 21:00:02,036 - Iniciando el proceso...
+2020-04-17 21:00:02,036 - Leyendo URL https://elpais.es
+2020-04-17 21:00:12,863 - Titular duplicado, no se pudo publicar
+2020-04-17 21:00:12,864 - proceso Finalizado.
+2020-04-19 12:00:01,442 - Iniciando el proceso...
+2020-04-19 12:00:01,487 - Leyendo URL https://elpais.es
+2020-04-19 12:00:13,568 - proceso Finalizado.
+2020-04-19 13:00:01,782 - Iniciando el proceso...
+2020-04-19 13:00:01,802 - Leyendo URL https://elpais.es
+2020-04-19 13:00:14,778 - Titular duplicado, no se pudo publicar
+2020-04-19 13:00:14,778 - proceso Finalizado.
+2020-04-19 14:00:01,484 - Iniciando el proceso...
+2020-04-19 14:00:01,485 - Leyendo URL https://elpais.es
+2020-04-19 14:00:12,080 - Titular duplicado, no se pudo publicar
+2020-04-19 14:00:12,082 - proceso Finalizado.
+2020-04-19 15:00:01,235 - Iniciando el proceso...
+2020-04-19 15:00:01,235 - Leyendo URL https://elpais.es
+2020-04-19 15:00:11,936 - Titular duplicado, no se pudo publicar
+2020-04-19 15:00:11,937 - proceso Finalizado.
+2020-04-19 16:00:01,112 - Iniciando el proceso...
+2020-04-19 16:00:01,112 - Leyendo URL https://elpais.es
+2020-04-19 16:00:11,984 - Titular duplicado, no se pudo publicar
+2020-04-19 16:00:11,985 - proceso Finalizado.
+2020-04-19 17:00:01,619 - Iniciando el proceso...
+2020-04-19 17:00:01,739 - Leyendo URL https://elpais.es
+2020-04-19 17:00:13,372 - proceso Finalizado.
+2020-04-19 18:00:02,250 - Iniciando el proceso...
+2020-04-19 18:00:02,485 - Leyendo URL https://elpais.es
+2020-04-19 18:00:15,610 - proceso Finalizado.
+2020-04-19 19:00:01,773 - Iniciando el proceso...
+2020-04-19 19:00:01,773 - Leyendo URL https://elpais.es
+2020-04-19 19:00:13,114 - Titular duplicado, no se pudo publicar
+2020-04-19 19:00:13,115 - proceso Finalizado.
+2020-04-20 12:00:01,886 - Iniciando el proceso...
+2020-04-20 12:00:01,907 - Leyendo URL https://elpais.es
+2020-04-20 12:00:14,180 - proceso Finalizado.
+2020-04-20 13:00:02,422 - Iniciando el proceso...
+2020-04-20 13:00:02,465 - Leyendo URL https://elpais.es
+2020-04-20 13:00:14,828 - proceso Finalizado.
+2020-04-20 14:00:02,595 - Iniciando el proceso...
+2020-04-20 14:00:02,596 - Leyendo URL https://elpais.es
+2020-04-20 14:00:13,733 - proceso Finalizado.
+2020-04-20 15:00:02,064 - Iniciando el proceso...
+2020-04-20 15:00:02,064 - Leyendo URL https://elpais.es
+2020-04-20 15:00:13,058 - Titular duplicado, no se pudo publicar
+2020-04-20 15:00:13,060 - proceso Finalizado.
+2020-04-20 16:00:01,228 - Iniciando el proceso...
+2020-04-20 16:00:01,394 - Leyendo URL https://elpais.es
+2020-04-20 16:00:13,749 - Titular duplicado, no se pudo publicar
+2020-04-20 16:00:13,750 - proceso Finalizado.
+2020-04-20 17:00:02,041 - Iniciando el proceso...
+2020-04-20 17:00:02,041 - Leyendo URL https://elpais.es
+2020-04-20 17:00:13,463 - Titular duplicado, no se pudo publicar
+2020-04-20 17:00:13,464 - proceso Finalizado.
+2020-04-20 18:00:02,229 - Iniciando el proceso...
+2020-04-20 18:00:02,272 - Leyendo URL https://elpais.es
+2020-04-20 18:00:14,922 - Titular duplicado, no se pudo publicar
+2020-04-20 18:00:14,923 - proceso Finalizado.
+2020-04-20 19:00:01,082 - Iniciando el proceso...
+2020-04-20 19:00:01,083 - Leyendo URL https://elpais.es
+2020-04-20 19:00:12,386 - Titular duplicado, no se pudo publicar
+2020-04-20 19:00:12,387 - proceso Finalizado.
+2020-04-21 11:00:02,314 - Iniciando el proceso...
+2020-04-21 11:00:02,359 - Leyendo URL https://elpais.es
+2020-04-21 11:00:13,832 - proceso Finalizado.
+2020-04-21 12:00:02,000 - Iniciando el proceso...
+2020-04-21 12:00:02,000 - Leyendo URL https://elpais.es
+2020-04-21 12:00:13,227 - Titular duplicado, no se pudo publicar
+2020-04-21 12:00:13,228 - proceso Finalizado.
+2020-04-28 12:50:01,849 - Iniciando el proceso...
+2020-04-28 12:50:01,850 - Leyendo URL https://elpais.es
+2020-04-28 12:50:13,843 - proceso Finalizado.
